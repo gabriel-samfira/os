@@ -336,10 +336,11 @@ func WindowsVersions() map[string]string {
 	for i, val := range windowsVersions {
 		save[i] = val
 	}
-
-	for i, val := range windowsNanoVersions {
-		save[i] = val
-	}
+	/*
+		for i, val := range windowsNanoVersions {
+			save[i] = val
+		}
+	*/
 	return save
 }
 
